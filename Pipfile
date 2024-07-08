@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyarrow = "*"
+psqlparse2 = "*"
+protobuf = "*"
+
+[dev-packages]
+pytest = "*"
+bandit = "*"
+black = "*"
+mypy = "*"
+pylance = "*"
+pyperf = "*"
+sqlfluff = "*"
+
+[requires]
+python_version = "3.12"
